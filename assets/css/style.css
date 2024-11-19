@@ -22,12 +22,13 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-.botton {
+.btn {
   display: inline-block;
-  padding: 0 16px ;
+  padding: 0 16px;
   line-height: 50px;
   min-width: 144px;
-  color: #fff;  background: #171100;
+  color: #fff;
+  background: #171100;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 600px;
@@ -35,16 +36,16 @@ a {
 }
 
 /* =====================================================Header=============================================== */
-.header{
-  background-color: blanchedalmond;
+.header {
+  background: beige;
 }
-.header.fixed{
+.header.fixed {
   position: sticky;
-  top: -28px /*36px -8px (8px là tùy m muốn nó dừng ở mô*/
+  top: -28px; /*36px -8px (8px là tùy m muốn nó dừng ở mô*/
 }
 .header .body {
   display: flex;
-  align-items: center;     /*căn text ngay hàng (chiều dọc) */
+  align-items: center; /*căn text ngay hàng (chiều dọc) */
   padding: 36px 0 8px;
 }
 .nav ul {
@@ -75,6 +76,59 @@ a {
   border-radius: 1px;
   background: #171100;
 }
-.header .action{
+.header .action {
   margin-left: 49px;
 }
+
+/* =================================================Hero================================================== */
+.hero {
+  padding: 56px;
+  background: beige;
+}
+.hero .body {
+  display: flex;
+}
+/* ========= hero left ============== */
+.hero .media-block {
+  width: 48%;
+  position: relative;
+}
+
+.hero .content-block {
+  width: 52%; 
+}
+.hero .media-block .img {
+  width: 470px;
+  height: 685px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* .hero .hero-board {
+  padding: 24px;
+  width: 270px;
+  position: absolute;
+  bottom: 48px;
+  right: 0;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+} */
+
+/* .hero-board .item{
+  display: flex;
+}
+
+.hero-board .icon{
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  justify-items: center;
+  align-items: center;
+  background-color: bisque;  
+}
+
+.hero-board .info{
+  margin-left: 16px;
+} */
