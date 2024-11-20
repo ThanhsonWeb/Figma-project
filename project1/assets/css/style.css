@@ -467,4 +467,51 @@ font-size: 2.6rem;
 font-style: italic;
 line-height: 1.54; 
 }
+/* ================Feature=================== */
+.feature{
+  margin-top: 135px;
+  padding: 65px 0;
+  background-color: bisque;
+}
 
+.feature .body{
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature .images{
+  display: flex;
+  gap: 30px;
+}
+
+.feature .images img{
+  width: 270px;
+height: 404px;
+object-fit: cover;
+  border-radius: 16px;
+}
+
+.feature .lower{
+  margin-top: 34px;
+}
+
+.feature .content{
+  width: 41%; /*lấy size của nó chia main 1170 á*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feature .desc{
+  margin-top: 16px;
+  color: #5F5B53;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 1.75; /* 175% */
+}
+
+.feature .cta-btn{
+  margin-top: 36px;
+  width: 137px;
+height: 50px;
+background-color: var(--primary-color);
+}
