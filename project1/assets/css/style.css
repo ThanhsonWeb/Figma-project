@@ -402,7 +402,17 @@ a {
 }
 .feedback-item{
   display: flex;
+  width: 100%;
+  flex-shrink: 0;
+
+
 }
+.feedback-list{
+  display: flex;
+  overflow: hidden;
+  
+}
+
 
 .avatar {
   width: 72px;
